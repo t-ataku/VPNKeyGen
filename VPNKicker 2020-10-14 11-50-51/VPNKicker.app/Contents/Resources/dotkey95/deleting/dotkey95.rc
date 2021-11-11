@@ -1,0 +1,192 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// “ú–{Œê resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_JPN)
+#ifdef _WIN32
+LANGUAGE LANG_JAPANESE, SUBLANG_DEFAULT
+#pragma code_page(932)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DOTKEY95 DIALOG DISCARDABLE  0, 0, 168, 36
+STYLE DS_MODALFRAME | DS_3DLOOK | DS_CENTER | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "dotkey95"
+FONT 14, "FixedSys"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,130,6,32,14
+    ICON            IDI_DOTKEY95,IDC_STATIC,4,7,18,20
+    LTEXT           "dotkey95",IDC_PROGNAME,27,5,96,26
+END
+
+IDD_OPTION DIALOG DISCARDABLE  0, 0, 111, 93
+STYLE DS_MODALFRAME | DS_3DLOOK | DS_CENTER | WS_POPUP | WS_VISIBLE | 
+    WS_CAPTION | WS_SYSMENU
+CAPTION "Option"
+FONT 14, "System"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,71,7,32,14
+    PUSHBUTTON      "Cancel",IDCANCEL,71,24,32,14
+    CONTROL         "&CRLF",IDC_CRLF,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,9,
+                    10,47,8
+    CONTROL         "&Auto Paste",IDC_AUTOPASTE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,9,23,53,8
+    CONTROL         "&S/Key MD5",IDC_SKEY_MD5,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,9,36,53,8
+    CONTROL         "&Pass Cache",IDC_PASSCACHE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,9,49,54,8
+    CONTROL         "C&onfirmation",IDC_CONFIRMATION,"Button",
+                    BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,18,62,59,8
+    CONTROL         "C&lear on Suspending",IDC_CLEARCACHE,"Button",
+                    BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,18,76,87,8
+END
+
+IDD_OPTION_NOCACHE DIALOG DISCARDABLE  0, 0, 111, 53
+STYLE DS_MODALFRAME | DS_3DLOOK | DS_CENTER | WS_POPUP | WS_VISIBLE | 
+    WS_CAPTION | WS_SYSMENU
+CAPTION "Option"
+FONT 14, "System"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,71,7,32,14
+    PUSHBUTTON      "Cancel",IDCANCEL,71,24,32,14
+    CONTROL         "&CRLF",IDC_CRLF,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,9,
+                    10,47,8
+    CONTROL         "&Auto Paste",IDC_AUTOPASTE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,9,23,50,8
+    CONTROL         "&S/Key MD5",IDC_SKEY_MD5,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,9,36,53,8
+END
+
+IDD_PASSPHRASE DIALOG DISCARDABLE  0, 0, 56, 12
+STYLE DS_MODALFRAME | DS_3DLOOK | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "passphrase"
+FONT 10, "Courier New"
+BEGIN
+    EDITTEXT        IDC_PASS,23,0,33,12,ES_PASSWORD | ES_AUTOHSCROLL
+    LTEXT           "MD4",IDC_FUNC,4,2,17,9
+END
+
+IDD_PASSPHRASEREPEAT DIALOG DISCARDABLE  0, 0, 56, 24
+STYLE DS_MODALFRAME | DS_3DLOOK | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "passphrase"
+FONT 10, "Courier New"
+BEGIN
+    EDITTEXT        IDC_PASS,23,0,33,12,ES_PASSWORD | ES_AUTOHSCROLL
+    EDITTEXT        IDC_PASS_REPEAT,23,12,33,12,ES_PASSWORD | ES_AUTOHSCROLL
+    LTEXT           "MD4",IDC_FUNC,4,2,17,9
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_DOTKEY95            ICON    DISCARDABLE     "dotkey95.ico"
+IDI_DISABLE             ICON    DISCARDABLE     "disable.ico"
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 0,8,0,0
+ PRODUCTVERSION 0,8,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041104b0"
+        BEGIN
+            VALUE "Comments", "pochi@ccs.mt.nec.co.jp\0"
+            VALUE "CompanyName", "NEC Corporation\0"
+            VALUE "FileDescription", "dotkey95 - Dotkey95 is a One-Time KEY calculater for Windows95/98/NT4.0\0"
+            VALUE "FileVersion", "0.8.0\0"
+            VALUE "InternalName", "dotkey95.exe\0"
+            VALUE "LegalCopyright", "Copyright (C) 1996-1998 NEC Corporation\0"
+            VALUE "OriginalFilename", "dotkey95.exe\0"
+            VALUE "ProductName", "dotkey95\0"
+            VALUE "ProductVersion", "0.8.0\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x411, 1200
+    END
+END
+
+#endif    // !_MAC
+
+#endif    // “ú–{Œê resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

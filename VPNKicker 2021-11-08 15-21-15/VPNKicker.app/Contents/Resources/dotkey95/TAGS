@@ -1,0 +1,356 @@
+
+Dotkey95.c,964
+static char VssID[VssID12,323
+static char ProgNameID[ProgNameID22,556
+static char VersionID[VersionID23,600
+static char CopyRightID[CopyRightID24,647
+HINSTANCE   hInst;27,724
+HWND		hWndNextChain 28,744
+BOOL		fEnableDotkey;30,775
+BOOL		fEnableRepeat;31,824
+BOOL		fPostSAT;33,870
+Preference	pref;35,952
+PassCache	passcache[passcache36,970
+int			PassCachePos 37,1007
+int  hash_func;39,1034
+int  seq;40,1051
+char seed[seed41,1088
+char pass[pass42,1125
+char FuncName[FuncName44,1178
+int PASCAL WinMain(58,1581
+BOOL CALLBACK MainWndProc(83,2140
+int ContextMenu(296,6658
+void PostSAT(374,8372
+int CheckSeqNum(395,8893
+BOOL CALLBACK PassphraseDlgProc(416,9374
+int FindSeq(553,12676
+char * ScanBuf(585,13440
+int SetFuncName(604,13770
+} applist[applist635,14383
+int GetPasteType(644,14549
+int PasteEvent(671,15277
+int SavePassCache(717,16301
+BOOL CheckPassCache(744,17017
+int RotatePassphrase(783,17863
+int ClearPassCache(797,18088
+
+dotkeyux.c,231
+int  hash_func;6,83
+int  seq;7,99
+char seed[seed8,135
+char pass[pass9,171
+char FuncName[FuncName13,302
+char * ScanBuf(19,421
+int SetFuncName(38,732
+int FindSeq(64,1267
+char *readline(readline91,1901
+int main(118,2286
+
+md4.c,738
+#define TRUE 59,2630
+#define FALSE 60,2647
+#define LOWBYTEFIRST 65,2824
+#define	LOWBYTEFIRST 67,2949
+#define I0 76,3118
+#define I1 77,3183
+#define I2 78,3207
+#define I3 79,3231
+#define C2 80,3255
+#define C3 81,3327
+#define fs1 86,3561
+#define fs2 87,3619
+#define fs3 88,3638
+#define fs4 89,3656
+#define gs1 90,3674
+#define gs2 91,3732
+#define gs3 92,3751
+#define gs4 93,3770
+#define hs1 94,3788
+#define hs2 95,3846
+#define hs3 96,3863
+#define hs4 97,3880
+#define	f(105,4134
+#define	g(106,4183
+#define h(107,4237
+#define rot(108,4275
+#define ff(109,4338
+#define gg(110,4401
+#define hh(111,4469
+MDprint(122,4851
+MDbegin(137,5113
+#define revx 156,5495
+MDreverse(159,5617
+MDblock(189,6036
+MDupdate(271,8233
+
+md5c.c,799
+#define S11 31,1058
+#define S12 32,1073
+#define S13 33,1089
+#define S14 34,1105
+#define S21 35,1121
+#define S22 36,1136
+#define S23 37,1151
+#define S24 38,1167
+#define S31 39,1183
+#define S32 40,1198
+#define S33 41,1214
+#define S34 42,1230
+#define S41 43,1246
+#define S42 44,1261
+#define S43 45,1277
+#define S44 46,1293
+static unsigned char PADDING[PADDING54,1664
+#define F(62,1959
+#define G(63,2008
+#define H(64,2057
+#define I(65,2095
+#define ROTATE_LEFT(69,2182
+#define FF(74,2379
+#define GG(79,2522
+#define HH(84,2665
+#define II(89,2808
+void MD5Init 97,3030
+void MD5Update 113,3513
+void MD5Final 155,4719
+static void MD5Transform 183,5533
+static void Encode 276,9438
+static void Decode 294,9936
+static void MD5_memcpy 309,10307
+static void MD5_memset 322,10554
+
+otp_hash.c,1049
+void _otp_sevenbit(37,966
+int _otp_MD4_keycrunch 47,1076
+void _otp_MD4_iterate 93,2116
+unsigned char *_otp_MD4_foldhash _otp_MD4_foldhash128,2816
+int _otp_MD4_altdict 168,3635
+unsigned char *HashWithMD4 HashWithMD4186,4118
+void test_MD4 228,5741
+int _otp_MD5_keycrunch 246,6112
+char bufx 279,6855
+void _otp_MD5_iterate 281,6874
+unsigned char *_otp_MD5_foldhash _otp_MD5_foldhash301,7327
+int _otp_MD5_altdict 326,7837
+unsigned char *HashWithMD5 HashWithMD5344,8332
+void test_MD5 363,8713
+int _otp_SHA1_keycrunch 381,9077
+void _otp_SHA1_iterate 435,10376
+unsigned char *_otp_SHA1_foldhash _otp_SHA1_foldhash477,11287
+int _otp_SHA1_altdict 525,12443
+unsigned char *HashWithSHA1 HashWithSHA1543,12942
+void test_SHA1 588,14518
+struct otp_hashlist 605,14941
+static struct otp_hashlist OTP_HASHLIST 614,15168
+OTPkeycrunchfcn OTP_GetKeyCrunchFcn 668,17239
+OTPiteratefcn OTP_GetIterateFcn 690,17803
+OTPaltdictfcn OTP_GetAltDictFcn 713,18361
+OTPgenhashfcn OTP_GetGenHashFcn 735,18913
+OTPgenfoldfcn OTP_GetGenFoldFcn 757,19467
+
+otp_put.c,221
+char Wp[Wp19,512
+char *OTP_btoe OTP_btoe2073,18438
+int _otp_std_to_binary 2111,19433
+char *OTP_put8 OTP_put82158,20323
+btoc(2175,20693
+wsrch(2195,21075
+insert(2221,21583
+standard(2255,22261
+extract(2275,22627
+
+prefs.c,149
+static char VssID[VssID12,320
+int InitPrefs(28,645
+BOOL LoadRegistory(51,1066
+BOOL SaveRegistory(107,2759
+BOOL CALLBACK OptionDlgProc(165,4318
+
+sha.c,611
+# define SHA_LITTLE_ENDIAN58,2012
+#define VERBOSE67,2194
+#define TRUE 69,2213
+#define FALSE 70,2230
+#define SUCCESS 72,2249
+#define FAILURE 73,2268
+#define HASH_SIZE 82,2475
+main(84,2547
+static void byteReverse(156,4814
+union longbyte172,5209
+int sha_file(178,5375
+void sha_memory(197,5725
+void sha_stream(205,5904
+#define f0(212,6034
+#define f1(213,6105
+#define f2(214,6136
+#define f3(215,6181
+#define K0 217,6214
+#define K1 218,6285
+#define K2 219,6308
+#define K3 220,6331
+#define S(222,6356
+#define r0(224,6425
+#define r1(233,6597
+#define r1(242,6850
+static void nist_guts(252,7071
+
+tray.c,100
+static char VssID[VssID12,318
+int TrayAdd(25,558
+int TrayDelete(52,1111
+int TrayModify(67,1344
+
+dotkey95.h,1633
+#define		DOTKEY95_NAME	24,485
+#define		DOTKEY95_VERSION	25,521
+#define		DOTKEY95_COPYRIGHT	26,560
+#define		WM_DOTKEY95NOTIFY	33,715
+#define		WM_PASSPHRASE	34,756
+#define		WM_DOTKEY95TITLE	35,794
+#define		IDT_DOTKEY95TITLE	37,836
+#define		IDT_DOTKEY95	43,951
+#define		IDM_ABOUT	54,1161
+#define		IDM_OPTION	55,1187
+#define		IDM_EXIT	56,1214
+#define		IDM_CLEARCACHE	57,1239
+#define		IDM_REPEAT	58,1269
+#define		PASS_PHRASE_MIN_LEN	67,1416
+#define		PASS_PHRASE_MAX_LEN	68,1448
+#define		SEED_MAX_LEN	69,1482
+#define		ONETIME_KEY_MAX_LEN	70,1511
+#define		OTPMD4	78,1656
+#define		OTPMD5	79,1686
+#define		OTPSHA1	80,1716
+#define		SKEY	82,1761
+#define		BSDOS_SKEYMD4	84,1799
+#define		BSDOS_SKEYMD5	85,1836
+#define		SEQSEED_POS	89,1879
+#define		FUNCNAME_MD2	91,1914
+#define		FUNCNAME_MD4	92,1944
+#define		FUNCNAME_MD5	93,1974
+#define		FUNCNAME_SHA1	94,2004
+#define		MD2	96,2038
+#define		MD4	97,2058
+#define		MD5	98,2078
+#define		SHA1	99,2098
+#define		TITLE_NAME	118,2605
+#define		CLASS_NAME	119,2630
+#define		KEY_STROKE_PASTE	121,2670
+#define		DOS_PROMPT_PASTE	122,2699
+#define		CRLF	124,2730
+#define		VK_E	125,2755
+#define		VK_P	126,2778
+#define		VK_T	127,2801
+#define		VK_V	128,2824
+#define		DOTKEY95_SUBKEY	133,2872
+#define		WITHCRLF_VALNAME	134,2932
+#define		AUTOPASTE_VALNAME	135,2972
+#define		PASSCACHE_VALNAME	136,3014
+#define		CONFIRMATION_VALNAME	137,3056
+#define		SKEY_MD5_VALNAME	138,3103
+#define		CLEARCACHE_VALNAME	139,3142
+#define		SLEEPATCOPY_VALNAME	140,3190
+#define		DEFAULT_SLEEP_AT_COPY	142,3238
+} Preference;153,3750
+#define		PASSCACHE_NUM	155,3767
+} PassCache;163,4016
+
+dotkeyux.h,596
+#define DOTKEYUX_H2,19
+#define FALSE 4,39
+#define TRUE 5,57
+#define		PASS_PHRASE_MIN_LEN	11,161
+#define		PASS_PHRASE_MAX_LEN	12,192
+#define		SEED_MAX_LEN	13,225
+#define		ONETIME_KEY_MAX_LEN	14,253
+#define		OTPMD4	22,390
+#define		OTPMD5	23,419
+#define		OTPSHA1	24,448
+#define		SKEY	26,491
+#define		BSDOS_SKEYMD4	28,527
+#define		BSDOS_SKEYMD5	29,563
+#define		SEQSEED_POS	33,602
+#define		FUNCNAME_MD2	35,635
+#define		FUNCNAME_MD4	36,664
+#define		FUNCNAME_MD5	37,693
+#define		FUNCNAME_SHA1	38,722
+#define		MD2	40,754
+#define		MD4	41,773
+#define		MD5	42,792
+#define		SHA1	43,811
+
+md4.h,34
+} MDstruct, *MDptr;MDptr34,1438
+
+md5.h,19
+} MD5_CTX;31,1195
+
+otp.h,679
+#define OTP_ACCEPTANCE_WINDOW 3,22
+struct skey 10,215
+typedef struct skey OTPstruct;25,431
+typedef int           (*OTPkeycrunchfcn)OTPkeycrunchfcn27,465
+typedef void          (*OTPiteratefcn)OTPiteratefcn28,557
+typedef int           (*OTPaltdictfcn)OTPaltdictfcn29,618
+typedef unsigned char *(*OTPgenhashfcn)OTPgenhashfcn30,687
+typedef unsigned char *(*OTPgenfoldfcn)OTPgenfoldfcn31,762
+#define OTP_CALLBACK_TIMEOUT 87,3035
+#define OTP_CALLBACK_AUTHWINDOW 88,3074
+#define OTP_CALLBACK_QSTATUS 89,3113
+#define OTP_CALLBACK_UPD_COLLIDE 90,3152
+#define OTP_CALLBACK_UPDATEOK 91,3191
+#define OTP_CALLBACK_UPDATEFAIL 92,3230
+#define OTP_CALLBACK_OVERWRITE 93,3269
+
+resource.h,1075
+#define IDD_DOTKEY95 5,106
+#define IDI_DEFAULT 6,151
+#define IDI_CONNECT 7,196
+#define IDD_OPTIONS 8,241
+#define IDI_DOTKEY95 9,286
+#define IDI_DISABLE 10,331
+#define IDD_PASSPHRASE 11,376
+#define IDD_OPTION 12,421
+#define IDD_PASSPHRASEREPEAT 13,466
+#define IDD_OPTION_NOCACHE 14,511
+#define IDC_HOMEDIR 15,556
+#define IDC_PORTNUM 16,602
+#define IDC_PASS 17,648
+#define IDC_PASS2 18,694
+#define IDC_PASS_REPEAT 19,740
+#define IDC_FUNC 20,786
+#define IDC_PASSCACHE 21,832
+#define IDC_CRLF 22,878
+#define IDC_AUTOPASTE 23,924
+#define IDC_DEFAULT_PASTE 24,970
+#define IDC_CONFIRMATION 25,1016
+#define IDC_ALT_V_PASTE 26,1062
+#define IDC_SKEY_MD5 27,1108
+#define IDC_SHIFT_INS_PASTE 28,1154
+#define IDC_CLEARCACHE 29,1200
+#define IDC_BOW_PASTE 30,1246
+#define IDC_DOS_PROMPT_PASTE 31,1292
+#define IDC_KEYSTROKE_PASTE 32,1338
+#define IDC_AUTODETECT 33,1384
+#define IDC_PROGNAME 34,1430
+#define _APS_NEXT_RESOURCE_VALUE 40,1583
+#define _APS_NEXT_COMMAND_VALUE 41,1628
+#define _APS_NEXT_CONTROL_VALUE 42,1675
+#define _APS_NEXT_SYMED_VALUE 43,1721
+
+sizes.h,480
+# define OTP_SIZES_H7,128
+typedef long                int32;10,166
+typedef unsigned long      uint32;11,202
+typedef unsigned long      UINT4;13,240
+typedef unsigned int       UINT2;14,275
+typedef int                int32;18,321
+typedef unsigned int      uint32;19,356
+typedef unsigned int       UINT4;21,393
+typedef unsigned short int UINT2;22,428
+#define	ANSIPROTO	31,605
+#  define	__ARGS(35,655
+#  define	__ARGS(37,686
+typedef unsigned char *POINTER;POINTER42,745
+
+sha.h,0

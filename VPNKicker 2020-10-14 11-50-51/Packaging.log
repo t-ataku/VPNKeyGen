@@ -1,0 +1,116 @@
+2020-10-14 02:50:29 +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7fb43106d650; archive(resolved)='<IDEArchive: 0x7fb418e0c0a0>', distributionTask(resolved)='2', distributionDestination(resolved)='1', distributionMethod(resolved)='<IDEDistributionMethodDevelopmentSignedMac: 0x7fb42fee9a90>', team(resolved)='<IDEProvisioningDisambiguatableBasicTeam: 0x7fb42fcb0340; teamID='63LKD7Y37F', teamName='Toshimi Ataku (Personal Team)', teamType='Personal Team', username='t_ataku@icloud.com', isFreeProvisioningTeam='1'>'>
+	Chain (11, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7fb43106d650; archive = '<IDEArchive: 0x7fb418e0c0a0>', distributionMethod='<IDEDistributionMethodDevelopmentSignedMac: 0x7fb42fee9a90>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fb42fcb0340; teamID='63LKD7Y37F', teamName='Toshimi Ataku (Personal Team)', teamType='Personal Team', username='t_ataku@icloud.com', isFreeProvisioningTeam='1'>'>
+	<IDEDistributionProcessingPipelineContext: 0x7fb418ffa4e0; archive = '<IDEArchive: 0x7fb418e0c0a0>', distributionMethod='<IDEDistributionMethodDevelopmentSignedMac: 0x7fb42fee9a90>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fb42fcb0340; teamID='63LKD7Y37F', teamName='Toshimi Ataku (Personal Team)', teamType='Personal Team', username='t_ataku@icloud.com', isFreeProvisioningTeam='1'>'>
+	<IDEDistributionContext: 0x7fb418ecc630; archive = '<IDEArchive: 0x7fb418e0c0a0>', distributionMethod='<IDEDistributionMethodDevelopmentSignedMac: 0x7fb42fee9a90>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fb42fcb0340; teamID='63LKD7Y37F', teamName='Toshimi Ataku (Personal Team)', teamType='Personal Team', username='t_ataku@icloud.com', isFreeProvisioningTeam='1'>'>
+	<IDEDistributionContext: 0x7fb41a791220; archive = '<IDEArchive: 0x7fb418e0c0a0>', distributionMethod='<IDEDistributionMethodDevelopmentSignedMac: 0x7fb42fee9a90>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fb42fcb0340; teamID='63LKD7Y37F', teamName='Toshimi Ataku (Personal Team)', teamType='Personal Team', username='t_ataku@icloud.com', isFreeProvisioningTeam='1'>'>
+	<IDEDistributionContext: 0x7fb41793d5f0; archive = '<IDEArchive: 0x7fb418e0c0a0>', distributionMethod='<IDEDistributionMethodDevelopmentSignedMac: 0x7fb42fee9a90>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fb42fcb0340; teamID='63LKD7Y37F', teamName='Toshimi Ataku (Personal Team)', teamType='Personal Team', username='t_ataku@icloud.com', isFreeProvisioningTeam='1'>'>
+	<IDEDistributionContext: 0x7fb418f096b0; archive = '<IDEArchive: 0x7fb418e0c0a0>', distributionMethod='<IDEDistributionMethodDevelopmentSignedMac: 0x7fb42fee9a90>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fb42fcb0340; teamID='63LKD7Y37F', teamName='Toshimi Ataku (Personal Team)', teamType='Personal Team', username='t_ataku@icloud.com', isFreeProvisioningTeam='1'>'>
+	<IDEDistributionContext: 0x7fb4316ac870; archive = '<IDEArchive: 0x7fb418e0c0a0>', distributionMethod='<IDEDistributionMethodDevelopmentSignedMac: 0x7fb42fee9a90>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fb42fcb0340; teamID='63LKD7Y37F', teamName='Toshimi Ataku (Personal Team)', teamType='Personal Team', username='t_ataku@icloud.com', isFreeProvisioningTeam='1'>'>
+	<IDEDistributionContext: 0x7fb434e6a060; archive = '<IDEArchive: 0x7fb418e0c0a0>', distributionMethod='<IDEDistributionMethodDevelopmentSignedMac: 0x7fb42fee9a90>', team='(null)'>
+	<IDEDistributionContext: 0x7fb434ebe4f0; archive = '<IDEArchive: 0x7fb418e0c0a0>', distributionMethod='<IDEDistributionMethodDevelopmentSignedMac: 0x7fb42fee9a90>', team='(null)'>
+	<IDEDistributionContext: 0x7fb434ed3eb0; archive = '<IDEArchive: 0x7fb418e0c0a0>', distributionMethod='<IDEDistributionMethodDevelopmentSignedMac: 0x7fb42fee9a90>', team='(null)'>
+	<IDEDistributionContext: 0x7fb432e2fb60; archive = '<IDEArchive: 0x7fb418e0c0a0>', distributionMethod='(null)', team='(null)'>
+</IDEDistributionProcessingPipelineContext: 0x7fb43106d650>
+2020-10-14 02:50:29 +0000  Processing step: IDEDistributionCreateDestRootStep
+2020-10-14 02:50:29 +0000  Processing step: IDEDistributionCopyItemStep
+2020-10-14 02:50:29 +0000  Running /usr/bin/ditto '-V' '/Users/ataku/Library/Developer/Xcode/Archives/2020-10-14/VPNKicker 2020-10-14 11.48.xcarchive/Products/Applications/VPNKicker.app' '/var/folders/__/8l7sb_vn6555v9ctmj8x3pd40000gn/T/XcodeDistPipeline.~~~9OlkeD/Root/Applications/VPNKicker.app'
+2020-10-14 02:50:29 +0000  >>> Copying /Users/ataku/Library/Developer/Xcode/Archives/2020-10-14/VPNKicker 2020-10-14 11.48.xcarchive/Products/Applications/VPNKicker.app 
+2020-10-14 02:50:29 +0000  copying file ./Contents/_CodeSignature/CodeResources ... 
+2020-10-14 02:50:29 +0000  9816 bytes for ./Contents/_CodeSignature/CodeResources
+2020-10-14 02:50:29 +0000  copying file ./Contents/MacOS/VPNKicker ... 
+2020-10-14 02:50:29 +0000  88768 bytes for ./Contents/MacOS/VPNKicker
+2020-10-14 02:50:29 +0000  copying file ./Contents/Resources/Base.lproj/MainMenu.nib ... 
+2020-10-14 02:50:29 +0000  51760 bytes for ./Contents/Resources/Base.lproj/MainMenu.nib
+2020-10-14 02:50:29 +0000  copying file ./Contents/Resources/dotkey95/dotkey95.mak ... 
+2020-10-14 02:50:29 +0000  25433 bytes for ./Contents/Resources/dotkey95/dotkey95.mak
+2020-10-14 02:50:29 +0000  copying file ./Contents/Resources/dotkey95/testdata ... 
+2020-10-14 02:50:29 +0000  585 bytes for ./Contents/Resources/dotkey95/testdata
+2020-10-14 02:50:29 +0000  copying file ./Contents/Resources/dotkey95/md4.c ... 
+2020-10-14 02:50:29 +0000  9997 bytes for ./Contents/Resources/dotkey95/md4.c
+2020-10-14 02:50:29 +0000  copying file ./Contents/Resources/dotkey95/otp_hash.c ... 
+2020-10-14 02:50:29 +0000  19820 bytes for ./Contents/Resources/dotkey95/otp_hash.c
+2020-10-14 02:50:29 +0000  copying file ./Contents/Resources/dotkey95/sizes.h ... 
+2020-10-14 02:50:29 +0000  790 bytes for ./Contents/Resources/dotkey95/sizes.h
+2020-10-14 02:50:29 +0000  copying file ./Contents/Resources/dotkey95/sha.h ... 
+2020-10-14 02:50:29 +0000  115 bytes for ./Contents/Resources/dotkey95/sha.h
+2020-10-14 02:50:29 +0000  copying file ./Contents/Resources/dotkey95/Makefile ... 
+2020-10-14 02:50:29 +0000  471 bytes for ./Contents/Resources/dotkey95/Makefile
+2020-10-14 02:50:29 +0000  copying file ./Contents/Resources/dotkey95/dotkeyux.h ... 
+2020-10-14 02:50:29 +0000  1356 bytes for ./Contents/Resources/dotkey95/dotkeyux.h
+2020-10-14 02:50:29 +0000  copying file ./Contents/Resources/dotkey95/md5.h ... 
+2020-10-14 02:50:29 +0000  1371 bytes for ./Contents/Resources/dotkey95/md5.h
+2020-10-14 02:50:29 +0000  copying file ./Contents/Resources/dotkey95/TAGS ... 
+2020-10-14 02:50:29 +0000  9621 bytes for ./Contents/Resources/dotkey95/TAGS
+2020-10-14 02:50:29 +0000  copying file ./Contents/Resources/dotkey95/dotkey95.mdp ... 
+2020-10-14 02:50:29 +0000  47104 bytes for ./Contents/Resources/dotkey95/dotkey95.mdp
+2020-10-14 02:50:29 +0000  copying file ./Contents/Resources/dotkey95/md5c.c ... 
+2020-10-14 02:50:29 +0000  10740 bytes for ./Contents/Resources/dotkey95/md5c.c
+2020-10-14 02:50:29 +0000  copying file ./Contents/Resources/dotkey95/otp.h ... 
+2020-10-14 02:50:29 +0000  3823 bytes for ./Contents/Resources/dotkey95/otp.h
+2020-10-14 02:50:29 +0000  copying file ./Contents/Resources/dotkey95/md4.h ... 
+2020-10-14 02:50:29 +0000  2677 bytes for ./Contents/Resources/dotkey95/md4.h
+2020-10-14 02:50:29 +0000  copying file ./Contents/Resources/dotkey95/sha.c ... 
+2020-10-14 02:50:29 +0000  10200 bytes for ./Contents/Resources/dotkey95/sha.c
+2020-10-14 02:50:29 +0000  copying file ./Contents/Resources/dotkey95/dotkeyux.c ... 
+2020-10-14 02:50:29 +0000  3939 bytes for ./Contents/Resources/dotkey95/dotkeyux.c
+2020-10-14 02:50:29 +0000  copying file ./Contents/Resources/dotkey95/deleting/prefs.c ... 
+2020-10-14 02:50:29 +0000  6026 bytes for ./Contents/Resources/dotkey95/deleting/prefs.c
+2020-10-14 02:50:29 +0000  copying file ./Contents/Resources/dotkey95/deleting/dotkey95.rc ... 
+2020-10-14 02:50:29 +0000  5704 bytes for ./Contents/Resources/dotkey95/deleting/dotkey95.rc
+2020-10-14 02:50:29 +0000  copying file ./Contents/Resources/dotkey95/deleting/dotkey95.h ... 
+2020-10-14 02:50:29 +0000  4264 bytes for ./Contents/Resources/dotkey95/deleting/dotkey95.h
+2020-10-14 02:50:29 +0000  copying file ./Contents/Resources/dotkey95/deleting/resource.h ... 
+2020-10-14 02:50:29 +0000  1782 bytes for ./Contents/Resources/dotkey95/deleting/resource.h
+2020-10-14 02:50:29 +0000  copying file ./Contents/Resources/dotkey95/deleting/tray.c ... 
+2020-10-14 02:50:29 +0000  1947 bytes for ./Contents/Resources/dotkey95/deleting/tray.c
+2020-10-14 02:50:29 +0000  copying file ./Contents/Resources/dotkey95/deleting/Dotkey95.c ... 
+2020-10-14 02:50:29 +0000  18299 bytes for ./Contents/Resources/dotkey95/deleting/Dotkey95.c
+2020-10-14 02:50:29 +0000  copying file ./Contents/Resources/dotkey95/otp_put.c ... 
+2020-10-14 02:50:29 +0000  23067 bytes for ./Contents/Resources/dotkey95/otp_put.c
+2020-10-14 02:50:29 +0000  copying file ./Contents/Info.plist ... 
+2020-10-14 02:50:29 +0000  1779 bytes for ./Contents/Info.plist
+2020-10-14 02:50:29 +0000  copying file ./Contents/PkgInfo ... 
+2020-10-14 02:50:29 +0000  8 bytes for ./Contents/PkgInfo
+2020-10-14 02:50:29 +0000  /usr/bin/ditto exited with 0
+2020-10-14 02:50:29 +0000  Processing step: IDEDistributionEmbedProfileStep
+2020-10-14 02:50:29 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fb433ee8b60; bundleID='com.ibm.jp.epro.VPNKicker', path='<DVTFilePath:0x7fb43106bfc0:'/Users/ataku/Library/Developer/Xcode/Archives/2020-10-14/VPNKicker 2020-10-14 11.48.xcarchive/Products/Applications/VPNKicker.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fb41a0a6a30; isSigned='1', isAdHocSigned='1', signingCertificate='(null)', entitlements='{
+}', teamID='(null)', identifier='com.ibm.jp.epro.VPNKicker', executablePath='<DVTFilePath:0x7fb432ce6740:'/Users/ataku/Library/Developer/Xcode/Archives/2020-10-14/VPNKicker 2020-10-14 11.48.xcarchive/Products/Applications/VPNKicker.app/Contents/MacOS/VPNKicker'>', hardenedRuntime='0'>'>
+2020-10-14 02:50:29 +0000  Processing step: IDEDistributionInfoPlistStep
+2020-10-14 02:50:29 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2020-10-14 02:50:29 +0000  Processing step: IDEDistributionAppThinningPlistStep
+2020-10-14 02:50:29 +0000  Processing step: IDEDistributionCompileBitcodeStep
+2020-10-14 02:50:29 +0000  Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2020-10-14 02:50:29 +0000  Processing step: IDEDistributionCodeSlimmingStep
+2020-10-14 02:50:29 +0000  Processing step: IDEDistributionCopyBCSymbolMapsStep
+2020-10-14 02:50:29 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2020-10-14 02:50:29 +0000  Processing step: IDEDistributionSymbolsStep
+2020-10-14 02:50:29 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2020-10-14 02:50:29 +0000  Processing step: IDEDistributionAppThinningStep
+2020-10-14 02:50:29 +0000  Skipping step: IDEDistributionAppThinningStep because it said so
+2020-10-14 02:50:29 +0000  Processing step: IDEDistributionArchThinningStep
+2020-10-14 02:50:29 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/__/8l7sb_vn6555v9ctmj8x3pd40000gn/T/XcodeDistPipeline.~~~9OlkeD/Root/Applications/VPNKicker.app/Contents/MacOS/VPNKicker' '-verify_arch' 'arm64e'
+2020-10-14 02:50:29 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2020-10-14 02:50:29 +0000  Skipping architecture thinning for item "VPNKicker" because arch "arm64e" wasn't found
+2020-10-14 02:50:29 +0000  Processing step: IDEDistributionODRStep
+2020-10-14 02:50:29 +0000  Processing step: IDEDistributionStripXattrsStep
+2020-10-14 02:50:29 +0000  Running /usr/bin/xattr '-crs' '/var/folders/__/8l7sb_vn6555v9ctmj8x3pd40000gn/T/XcodeDistPipeline.~~~9OlkeD/Root/Applications/VPNKicker.app'
+2020-10-14 02:50:30 +0000  /usr/bin/xattr exited with 0
+2020-10-14 02:50:30 +0000  Processing step: IDEDistributionCodesignStep
+2020-10-14 02:50:30 +0000  Entitlements for <IDEDistributionItem: 0x7fb433ee8b60; bundleID='com.ibm.jp.epro.VPNKicker', path='<DVTFilePath:0x7fb43106bfc0:'/Users/ataku/Library/Developer/Xcode/Archives/2020-10-14/VPNKicker 2020-10-14 11.48.xcarchive/Products/Applications/VPNKicker.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fb41a0a6a30; isSigned='1', isAdHocSigned='1', signingCertificate='(null)', entitlements='{
+}', teamID='(null)', identifier='com.ibm.jp.epro.VPNKicker', executablePath='<DVTFilePath:0x7fb432ce6740:'/Users/ataku/Library/Developer/Xcode/Archives/2020-10-14/VPNKicker 2020-10-14 11.48.xcarchive/Products/Applications/VPNKicker.app/Contents/MacOS/VPNKicker'>', hardenedRuntime='0'>'>: {
+}
+2020-10-14 02:50:30 +0000  Writing entitlements for <IDEDistributionItem: 0x7fb433ee8b60; bundleID='com.ibm.jp.epro.VPNKicker', path='<DVTFilePath:0x7fb43106bfc0:'/Users/ataku/Library/Developer/Xcode/Archives/2020-10-14/VPNKicker 2020-10-14 11.48.xcarchive/Products/Applications/VPNKicker.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fb41a0a6a30; isSigned='1', isAdHocSigned='1', signingCertificate='(null)', entitlements='{
+}', teamID='(null)', identifier='com.ibm.jp.epro.VPNKicker', executablePath='<DVTFilePath:0x7fb432ce6740:'/Users/ataku/Library/Developer/Xcode/Archives/2020-10-14/VPNKicker 2020-10-14 11.48.xcarchive/Products/Applications/VPNKicker.app/Contents/MacOS/VPNKicker'>', hardenedRuntime='0'>'> to: /var/folders/__/8l7sb_vn6555v9ctmj8x3pd40000gn/T/XcodeDistPipeline.~~~9OlkeD/entitlements~~~dWZouY
+2020-10-14 02:50:30 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'EF0E30A6B9927F4916E22D66BD3AFC02C91F9533' '--entitlements' '/var/folders/__/8l7sb_vn6555v9ctmj8x3pd40000gn/T/XcodeDistPipeline.~~~9OlkeD/entitlements~~~dWZouY' '--preserve-metadata=identifier,flags,runtime' '/var/folders/__/8l7sb_vn6555v9ctmj8x3pd40000gn/T/XcodeDistPipeline.~~~9OlkeD/Root/Applications/VPNKicker.app'
+2020-10-14 02:50:30 +0000  /var/folders/__/8l7sb_vn6555v9ctmj8x3pd40000gn/T/XcodeDistPipeline.~~~9OlkeD/Root/Applications/VPNKicker.app: replacing existing signature
+2020-10-14 02:50:39 +0000  /var/folders/__/8l7sb_vn6555v9ctmj8x3pd40000gn/T/XcodeDistPipeline.~~~9OlkeD/Root/Applications/VPNKicker.app: signed app bundle with Mach-O thin (x86_64) [com.ibm.jp.epro.VPNKicker]
+2020-10-14 02:50:39 +0000  /usr/bin/codesign exited with 0
+2020-10-14 02:50:39 +0000  Processing step: IDEDistributionZipODRItemStep
+2020-10-14 02:50:39 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2020-10-14 02:50:39 +0000  Processing step: IDEDistributionSkipPackagingStep
+2020-10-14 02:50:39 +0000  Processing step: IDEDistributionAppStoreInformationStep
+2020-10-14 02:50:39 +0000  Skipping step: IDEDistributionAppStoreInformationStep because it said so
+2020-10-14 02:50:39 +0000  Processing step: IDEDistributionGenerateProcessedDistributionItems
+2020-10-14 02:50:39 +0000  Processing step: IDEDistributionCreateManifestStep
+2020-10-14 02:50:39 +0000  Skipping step: IDEDistributionCreateManifestStep because it said so

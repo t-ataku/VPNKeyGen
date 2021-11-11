@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>VPNKicker</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>x86_64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>EF0E30A6B9927F4916E22D66BD3AFC02C91F9533</string>
+				<key>dateExpires</key>
+				<string>2021/10/14</string>
+				<key>type</key>
+				<string>Apple Development</string>
+			</dict>
+			<key>name</key>
+			<string>VPNKicker.app</string>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>63LKD7Y37F</string>
+				<key>name</key>
+				<string>Toshimi Ataku (Personal Team)</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
