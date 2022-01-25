@@ -1,0 +1,23 @@
+--- client-ivpn-win10.ovpn	2020-11-10 21:11:44.000000000 +0900
++++ /usr/local/etc/openvpn/client-ivpn-win10.ovpn	2020-07-27 09:18:54.000000000 +0900
+@@ -94,9 +97,10 @@
+ # a separate .crt/.key file pair
+ # for each client.  A single ca
+ # file can be used for all clients.
+-ca ca-ivpn.crt
+-cert 80552-08.crt
+-key 80552-08.key
++ca /usr/local/etc/openvpn/ca-ivpn.crt
++cert /usr/local/etc/openvpn/80552-08.crt
++key /usr/local/etc/openvpn/80552-08.key
++auth-user-pass /usr/local/etc/openvpn/80552-08.user
+ 
+ # Verify server certificate by checking
+ # that the certicate has the nsCertType
+@@ -143,3 +147,6 @@
+ route-delay 2
+ redirect-gateway def1
+ 
++script-security 2
++up /usr/local/etc/openvpn/update-resolv-conf
++down /usr/local/etc/openvpn/update-resolv-conf
